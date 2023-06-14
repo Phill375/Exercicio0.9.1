@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.conteiner{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.titulo{
+    justify-content: space-between;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+
+h1{
+    margin: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.mensagens{
+    color: white;
+}
+
+button{
+    width: 30px;
+    padding-top: 10px;
+    height: 25px;
+    background-color: transparent;
+    fill: white;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+button:hover{
+    cursor: pointer;
+    fill: rgb(210, 102, 30);
+}
+
+.recebeu1{
+    position: relative;
+    text-align: left;
+    padding-right: 25px;
+    padding-left: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #00a884;;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+
+.recebeu2{
+    position: relative;
+    text-align: left;
+    padding-right: 25px;
+    padding-left: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #00a884;;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+
+
+
+.enviou1{
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #3b4a54;;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 20px;
+    margin-right: auto;
+
+}
+
+.enviou2{
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #3b4a54;;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 20px;
+    margin-right: auto;
+
+}
+
+.visto1{
+    fill: aqua;
+    position: absolute;
+    bottom: 2px;
+    right: 8px;
+    font-size: 13px;
+}
+
+.visto2{
+    fill: grey;
+    position: absolute;
+    bottom: 2px;
+    right: 8px;
+    font-size: 13px;
+}
+
+.seta{
+    fill: none;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    font-size: 13px;
+}
+
+.seta:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+
+
+
